@@ -1,0 +1,40 @@
+.mega button {
+    background-color: #2571b3;
+    border: 1px solid #2571b3;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 16px 16px;
+    border-radius: 6px;
+    outline: none;
+    box-shadow: none;
+}
+
+.mega button:active {
+    background-color: #fff;
+    border: 1px solid #2571b3;
+    color: #2571b3;
+    outline: none;
+    box-shadow: none;
+}
+
+.mega label, input  {
+    font-size: 1.4rem;
+}
+
+.mega input {
+    width: 80px;
+}
+.mega {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}

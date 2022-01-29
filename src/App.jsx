@@ -15,12 +15,16 @@ import DiretaPai from "./components/comunicacao/DiretaPai"
 import IndiretaPai from "./components/comunicacao/IndiretaPai"
 import Input from "./components/formulario/Input"
 import Contador from "./components/contador/Contador"
+import Mega from "./components/Mega/Mega"
 
 let app = () => {
     return (
         <div className="App">
         <h1>Fundamentos React</h1>
         <div className="Cards">
+            <Card titulo="#13 - Gerador Megasena" color="#cc9900">
+                <Mega />
+            </Card>
             <Card titulo="#12 - Contador Component" color="#808000">
                 <Contador contadorInicial={10}></Contador>
             </Card>
